@@ -6,7 +6,7 @@ module.exports = {
         {
           dev: "local.website-1.com",
           stage: "local1.bluxcommerce.com",
-          prod: /[\w|\d|-|_]+\.website-2.com/,
+          prod: "local1.bluxcommerce.com",
         },
       ],
     },
@@ -16,7 +16,7 @@ module.exports = {
         {
           dev: "local.website-2.com",
           stage: "website-2.bluxcommerce.com",
-          prod: /[\w|\d|-|_]+\.website-2.com/,
+          prod: "website-2.bluxcommerce.com",
         },
       ],
     },
