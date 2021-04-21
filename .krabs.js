@@ -5,8 +5,8 @@ module.exports = {
       domains: [
         {
           dev: "local.website-1.com",
-          stage: "stage.website-1.com",
-          prod: "website-1.com",
+          stage: "local1.bluxcommerce.com",
+          prod: /[\w|\d|-|_]+\.website-2.com/,
         },
       ],
     },
@@ -15,7 +15,7 @@ module.exports = {
       domains: [
         {
           dev: "local.website-2.com",
-          stage: "stage.website-2.com",
+          stage: "website-2.bluxcommerce.com",
           prod: /[\w|\d|-|_]+\.website-2.com/,
         },
       ],
